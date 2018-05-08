@@ -1,0 +1,25 @@
+.col1{
+  background-color: white;
+  height: 600px;
+  border-radius: 20px;
+
+}
+
+.col2{
+  background-color: white;
+  height: 600px;
+  float:right;
+  border-radius: 20px;
+}
+
+.titu{
+  text-align: center;
+  margin-top: 35px;
+  line-height: 50px;
+  margin-bottom: 35px;
+}
+
+.titu h2{
+  font-size: 85px;
+
+}

@@ -1,0 +1,38 @@
+.corNav{
+  background-color: #F2EBF1;
+
+}
+
+.dBar{
+padding: 15px;
+padding-top: 18px;
+padding-bottom: 0px;
+}
+
+.btnPrincipal{
+  margin-top: 0px;
+  font-size: 27px;
+  display: block;
+  background-color:;
+
+
+}
+
+.logo{
+  width: 300px;
+  margin-top: 1px;
+  float: left !important;
+}
+
+.linkHome{
+  margin-top: 10px;
+  font-size: 28px;
+  padding: 0 25px;
+}
+
+.linkGeral{
+  margin-top: 11px;
+  font-size: 18px;
+  display: block;
+  padding: 0 18px;
+}
