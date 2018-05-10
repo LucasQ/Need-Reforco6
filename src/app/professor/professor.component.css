@@ -1,13 +1,19 @@
+.borda {
+    border: 1px solid;
+    padding: 0px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
 .col1{
   background-color: white;
-  height: 300px;
+  height: 350px;
   border-radius: 20px;
 
 }
 
 .col2{
   background-color: white;
-  height: 300px;
+  height: 350px;
   float:right;
   border-radius: 20px;
 }
@@ -43,10 +49,11 @@
 }
 
 .botao{
-  height:34px;
+  height:45px;
   width: 30%;
   margin-left: 35%;
-  margin-right: 30%
+  margin-right: 30%;
+  margin-top: 15px;
 }
 
 .verifica{
@@ -62,4 +69,8 @@
 
 .carac1{
 
+}
+
+.espaco{
+  height: 200px;
 }
