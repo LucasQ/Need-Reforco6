@@ -9,14 +9,16 @@
 
     <div class="row">
       <div class="col-md-5 col1 borda" style="padding: 20px;" >
-        <h2>  Matemática</h2>
+        <h2> Matemática</h2>
         <img class="profinho" src="assets/imagens/professormat.jpg" alt="prof">
         <p class="nomeprof">Leonardo Alves</p>
         <img class="verifica" src="assets/imagens/verificado.png" alt="verificado">
         <p class="carac1">Mestrado em Matemática pela Universade de Havard</p>
         <img class="verifica" src="assets/imagens/verificado.png" alt="verificado">
         <p class="carac2">Experiências anteriores com aulas de reforço</p>
-        <button class="botao" type="button" name="">Reserve</button>
+        <button class="botao" type="button" routerLink="/pag-reservar"
+        (click)="onReserva(1)"
+        >Reserve</button>
       </div>
       <div class="col-md-5 col2 borda" style="padding: 20px;">
         <h2>  Português</h2>
@@ -26,7 +28,9 @@
         <p class="carac1">Doutorado em Letras pela Universade de Boston</p>
         <img class="verifica" src="assets/imagens/verificado.png" alt="verificado">
         <p class="carac2">Experiências anteriores com o aprendizado da língua portuguesa</p>
-        <button class=" botao" type="button" name="" >Reserve</button>
+        <button class=" botao" type="button" name="" routerLink="/pag-reservar"
+        (click)="onReserva(2)"
+        >Reserve</button>
       </div>
     </div>
 </div>
