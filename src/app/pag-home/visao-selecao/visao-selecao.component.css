@@ -1,0 +1,28 @@
+.quadrado{
+    border: 1px solid;
+    padding: 0px;
+    box-shadow: 5px 10px 8px #888888;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.ngc{
+  background-color: white;
+  height: 300px;
+  border-radius: 20px;
+}
+ h2{
+  text-align: center;
+  font-size: 300%;
+}
+.palavra{
+  text-align: center;
+  font-size: 120%;
+  margin-top: 10px;
+}
+.materias{
+
+  margin-top: 85px;
+  margin-left: 230px;
+  width: 530px;
+
+}
