@@ -12,6 +12,9 @@ import { PagReservarComponent } from './pag-reservar/pag-reservar.component';
 import { PerfilService } from './pag-home/professor/perfil.service';
 import { PagListagemProfComponent } from './pag-listagem-prof/pag-listagem-prof.component';
 import { PagAvaliacaoProfComponent } from './pag-avaliacao-prof/pag-avaliacao-prof.component';
+import { DivProfComponent } from './pag-listagem-prof/div-prof/div-prof.component';
+import { PagListagemProfPortComponent } from './pag-listagem-prof-port/pag-listagem-prof-port.component';
+import { DivProfPortComponent } from './pag-listagem-prof-port/div-prof-port/div-prof-port.component';
 
 
 const appRoutes: Routes = [
@@ -19,6 +22,7 @@ const appRoutes: Routes = [
   { path: 'pag-reservar', component: PagReservarComponent},
   { path: 'pag-listagem-prof', component: PagListagemProfComponent},
   { path: 'pag-avaliacao-prof', component: PagAvaliacaoProfComponent},
+  { path: 'pag-listagem-prof-port', component: PagListagemProfPortComponent}
 ];
 
 
@@ -33,7 +37,10 @@ const appRoutes: Routes = [
     PagHomeComponent,
     PagReservarComponent,
     PagListagemProfComponent,
-    PagAvaliacaoProfComponent
+    PagAvaliacaoProfComponent,
+    DivProfComponent,
+    PagListagemProfPortComponent,
+    DivProfPortComponent
   ],
   imports: [
     BrowserModule,

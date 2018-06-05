@@ -1,4 +1,6 @@
+import { infoProf } from './prof.model';
 import { Component, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-pag-listagem-prof',
@@ -6,6 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./pag-listagem-prof.component.css']
 })
 export class PagListagemProfComponent implements OnInit {
+
+
+
+
+
 
   constructor() { }
 

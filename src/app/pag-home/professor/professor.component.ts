@@ -24,7 +24,7 @@ vadjo;
  }
 
   ngOnInit() {
-    console.log(this.perfilNumero.numPerfil);
+   
   }
 
 }
