@@ -1,0 +1,120 @@
+.logo {
+  width: 70px;
+  margin-top: 1px;
+  float: left !important;
+}
+
+.hr {
+  margin-top: 36px;
+  margin-left: 90px;
+}
+
+.menutop{
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.corNav{
+  background-color: white;
+
+}
+
+.dBar{
+padding: 15px;
+padding-top: 18px;
+padding-bottom: 0px;
+}
+
+.btnPrincipal{
+  margin-top: 0px;
+  font-size: 27px;
+  display: block;
+}
+.logo1{
+  width: 200px;
+  margin-top: 1px;
+  float: left !important;
+}
+
+
+  .linkHome{
+    margin-top: 10px;
+    font-size: 28px;
+    padding: 0 25px;
+  }
+
+  .linkGeral{
+    margin-top: 11px;
+    font-size: 18px;
+    display: block;
+    padding: 0 18px;
+  }
+
+  .aval{
+    text-decoration-style: solid;
+    text-shadow: auto;
+  }
+
+  .estrelas1 input[type=radio] {
+    display: none;
+  }
+  .estrelas1 label i.fa:before {
+    content:'\f005';
+    color: #FC0;
+  }
+  .estrelas1 input[type=radio]:checked ~ label i.fa:before {
+    color: #CCC;
+  }
+  .exclama{
+    float: left;
+    width: 25px;
+
+}
+.neymar{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 130px;
+  border-radius: 30px;
+}
+.nomealuno1{
+  margin-left: 180px;
+  margin-top: 5px;
+
+}
+.id1{
+  margin-left: 200px;
+  margin-top: 5px;
+}
+.coldm1{
+  background-color: white;
+  height: 350px;
+  border-radius: 20px;
+
+}
+.cold2{
+
+  background-color: white;
+  height: 350px;
+  float: right;
+  border-radius: 20px;
+}
+.bordex{
+
+  border: 1px solid;
+  padding: 0px;
+  box-shadow: 5px 10px 8px #888888;
+}
+.tex{
+  text-align: justify;
+}
+.paulo{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 130px;
+  border-radius: 30px;
+
+}

@@ -9,10 +9,10 @@ import { PerfilService } from './perfil.service';
 })
 export class ProfessorComponent implements OnInit {
 
-vadjo;
+var;
 
   constructor(public perfilNumero: PerfilService) {
-    this.vadjo = perfilNumero.numPerfil;
+    this.var = perfilNumero.numPerfil;
  }
 
  onReserva(n: number){
@@ -22,7 +22,7 @@ vadjo;
    this.perfilNumero.numPerfil = 2;
  }
  }
-
+ 
   ngOnInit() {
    
   }

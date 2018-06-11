@@ -10,7 +10,7 @@
     <div class="row">
       <div class="col-md-5 col1 borda" style="padding: 20px;" >
         <h2> Matemática</h2>
-        <a routerLink="/pag-avaliacao-prof"><img class="profinho" src="assets/imagens/professormat.jpg" alt="prof"></a>
+        <a routerLink="/pag-avaliacao-prof" (click)="onReserva(1)" ><img class="profinho" (click)="onReserva(1)" src="assets/imagens/professormat.jpg" alt="prof"></a>
         <p class="nomeprof">Leonardo Alves</p>
         <img class="verifica" src="assets/imagens/verificado.png" alt="verificado">
         <p class="carac1">Mestrado em Matemática pela Universade de Havard</p>
@@ -22,7 +22,7 @@
       </div>
       <div class="col-md-5 col2 borda" style="padding: 20px;">
         <h2>  Português</h2>
-        <img class="profinha" src="assets/imagens/professoraport.jpg" alt="prof">
+        <a routerLink="/pag-avaliacao-prof" (click)="onReserva(2)"><img class="profinha" src="assets/imagens/professoraport.jpg" alt="prof"></a>
         <p class="nomeprof">Carolina Lima</p>
         <img class="verifica" src="assets/imagens/verificado.png" alt="verificado">
         <p class="carac1">Doutorado em Letras pela Universade de Boston</p>

@@ -25,6 +25,10 @@ export class DivProfPortComponent implements OnInit {
   this.perfilNumero.numPerfil = 2;
 }
 
+onImgReserva(){
+  this.perfilNumero.numPerfil = 2;
+}
+
 
   ngOnInit() {
   }

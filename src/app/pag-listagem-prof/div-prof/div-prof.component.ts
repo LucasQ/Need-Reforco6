@@ -25,6 +25,10 @@ profNum: number = 0;
   this.perfilNumero.numPerfil = 1;
 }
 
+onImgReserva(){
+  this.perfilNumero.numPerfil = 1;
+}
+
 
 
   ngOnInit() {
