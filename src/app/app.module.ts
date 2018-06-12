@@ -15,6 +15,10 @@ import { PagAvaliacaoProfComponent } from './pag-avaliacao-prof/pag-avaliacao-pr
 import { DivProfComponent } from './pag-listagem-prof/div-prof/div-prof.component';
 import { PagListagemProfPortComponent } from './pag-listagem-prof-port/pag-listagem-prof-port.component';
 import { DivProfPortComponent } from './pag-listagem-prof-port/div-prof-port/div-prof-port.component';
+import { PagListagemProfFisComponent } from './pag-listagem-prof-fis/pag-listagem-prof-fis.component';
+import { DivProfFisComponent } from './pag-listagem-prof-fis/div-prof-fis/div-prof-fis.component';
+import { PagListagemProfQuiComponent } from './pag-listagem-prof-qui/pag-listagem-prof-qui.component';
+import { DivProfQuiComponent } from './pag-listagem-prof-qui/div-prof-qui/div-prof-qui.component';
 
 
 const appRoutes: Routes = [
@@ -22,7 +26,9 @@ const appRoutes: Routes = [
   { path: 'pag-reservar', component: PagReservarComponent},
   { path: 'pag-listagem-prof', component: PagListagemProfComponent},
   { path: 'pag-avaliacao-prof', component: PagAvaliacaoProfComponent},
-  { path: 'pag-listagem-prof-port', component: PagListagemProfPortComponent}
+  { path: 'pag-listagem-prof-port', component: PagListagemProfPortComponent},
+  { path: 'pag-listagem-prof-fis', component: PagListagemProfFisComponent },
+  { path: 'pag-listagem-prof-qui', component: PagListagemProfQuiComponent}
 ];
 
 
@@ -40,7 +46,11 @@ const appRoutes: Routes = [
     PagAvaliacaoProfComponent,
     DivProfComponent,
     PagListagemProfPortComponent,
-    DivProfPortComponent
+    DivProfPortComponent,
+    PagListagemProfFisComponent,
+    DivProfFisComponent,
+    PagListagemProfQuiComponent,
+    DivProfQuiComponent
   ],
   imports: [
     BrowserModule,

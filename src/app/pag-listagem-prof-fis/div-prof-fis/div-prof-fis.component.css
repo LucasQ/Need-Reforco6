@@ -1,0 +1,51 @@
+.borda {
+    border: 1px solid;
+    padding: 0px;
+    margin:50px;
+    box-shadow: 5px 10px 8px #888888;
+    height: 220px;
+}
+
+.imgProf{
+  
+  width: 130px;
+  border-radius: 20px;
+  float: center;
+}
+
+
+.botao{
+  height:45px;
+  width: 30%;
+  float: right;
+  font-size: 18px;
+  font-style: oblique;
+  letter-spacing: 1px;
+  font-stretch:expanded;
+  border-radius: 10px;
+}
+
+.verifica{
+  float: left;
+  width: 25px;
+}
+
+.nomeprof {
+  font-size: 30px;
+  float: left;
+  font-style: oblique;
+  font-weight: bolder;
+  font-stretch:expanded;
+}
+
+.infos {
+  float: left;
+  margin-top: 3%;
+}
+
+.divbotao{
+  float:left;
+  margin-left: 200px;
+
+}
+

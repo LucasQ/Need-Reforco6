@@ -25,8 +25,12 @@ profNum: number = 0;
   this.perfilNumero.numPerfil = 1;
 }
 
-onImgReserva(){
+onImgReserva(nome: string){
+  if(nome=='Leonardo Alves'){
   this.perfilNumero.numPerfil = 1;
+  }else if(nome=='Vadjo Victor'){
+    this.perfilNumero.numPerfil =5;
+  }
 }
 
 

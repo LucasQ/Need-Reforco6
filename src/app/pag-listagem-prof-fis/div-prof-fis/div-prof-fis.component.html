@@ -1,5 +1,4 @@
-
-  <div class="background" *ngFor="let item of profer">
+  <div class="background" *ngFor="let item of proferPort">
     <div class="borda" style="padding: 20px;" >
       
       <div class="row">
@@ -19,7 +18,7 @@
           <p class="carac2">{{item.desc2}}</p>
 
           <button class="botao" type="button" routerLink="/pag-reservar"
-          (click)="onReserva(1)"
+          (click)="onReserva()"
           >Reserve</button>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import { infoProfPort } from './prof.model';
+  import { infoProfPort } from './prof.model';
 import { Component, OnInit } from '@angular/core';
 import { PerfilService } from '../../pag-home/professor/perfil.service';
 
@@ -25,8 +25,12 @@ export class DivProfPortComponent implements OnInit {
   this.perfilNumero.numPerfil = 2;
 }
 
-onImgReserva(){
+onImgReserva(nome: string){
+  if(nome=='Carolina Lima'){
   this.perfilNumero.numPerfil = 2;
+  }else if(nome=='Victor Henrique'){
+    this.perfilNumero.numPerfil = 6;
+  }
 }
 
 
