@@ -104,3 +104,353 @@
     >Enviar</button>
   </div>
 </div>
+
+<div *ngIf="profNum==5" class="row rowzera">
+  <div class="row">
+    <div class="col-md-2">
+      <img src="assets/imagens/professormat2.jpg" class="imgProf" alt="">
+    </div>
+    <div class="col-md-6 nomeProf">
+          <h1>Prof. Vadjo Victor</h1>
+    </div>
+  </div>
+
+  <div class="row emailDisponibilidade">
+    <div class="col-md-5 cole">
+        <h1 class="horario">Horários</h1>
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1">Nome</span>
+        <input type="text" class="form-control" placeholder="nome" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group email">
+        <span class="input-group-addon" id="basic-addon1">Email</span>
+        <input type="text" class="form-control" placeholder="example@example.com" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group msgBox ">
+        <span class="input-group-addon box" id="basic-addon1">Mensagem</span>
+      </div>
+      <input type="text" class="form-control msg" placeholder="" aria-describedby="basic-addon1">
+    </div>
+
+    <div class="col-md-5 ">
+      <div class="colDir">
+        <div class="ps">
+          <p>Segunda-feira:  -------------</p>
+          <p>Terça-feira: 9:00 - 12:00</p>
+          <p>Quarta-feira: 11:00 - 15:50</p>
+          <p>Quinta-feira: -------------</p>
+          <p>Sexta-feira: 16:00 - 21:30</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label *ngIf="mensagem" class="sucesso">
+      <img src="assets/imagens/ok.png" class="ok" alt="">
+      <label class="label">Email enviado com sucesso!</label>
+    </label>
+    <button type="button" name="button" class="btn btn-primary botao"
+    (click)="onMensagem()"
+    >Enviar</button>
+  </div>
+</div>
+
+<div *ngIf="profNum==6" class="row rowzera">
+  <div class="row">
+    <div class="col-md-2">
+      <img src="assets/imagens/portuguesprof2.jpeg" class="imgProf" alt="">
+    </div>
+    <div class="col-md-6 nomeProf">
+          <h1>Prof. Victor Henrique</h1>
+    </div>
+  </div>
+
+  <div class="row emailDisponibilidade">
+    <div class="col-md-5 cole">
+        <h1 class="horario">Horários</h1>
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1">Nome</span>
+        <input type="text" class="form-control" placeholder="nome" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group email">
+        <span class="input-group-addon" id="basic-addon1">Email</span>
+        <input type="text" class="form-control" placeholder="example@example.com" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group msgBox ">
+        <span class="input-group-addon box" id="basic-addon1">Mensagem</span>
+      </div>
+      <input type="text" class="form-control msg" placeholder="" aria-describedby="basic-addon1">
+    </div>
+
+    <div class="col-md-5 ">
+      <div class="colDir">
+        <div class="ps">
+          <p>Segunda-feira: 14:00 - 19:30</p>
+          <p>Terça-feira: 9:00 - 12:00</p>
+          <p>Quarta-feira: 11:00 - 15:50</p>
+          <p>Quinta-feira: 08:00 - 19:30</p>
+          <p>Sexta-feira: -------------</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label *ngIf="mensagem" class="sucesso">
+      <img src="assets/imagens/ok.png" class="ok" alt="">
+      <label class="label">Email enviado com sucesso!</label>
+    </label>
+    <button type="button" name="button" class="btn btn-primary botao"
+    (click)="onMensagem()"
+    >Enviar</button>
+  </div>
+</div>
+
+<div *ngIf="profNum==3" class="row rowzera">
+  <div class="row">
+    <div class="col-md-2">
+      <img src="assets/imagens/professorfis1.jpg" class="imgProf" alt="">
+    </div>
+    <div class="col-md-6 nomeProf">
+          <h1>Prof. Gustavo Dalosto</h1>
+    </div>
+  </div>
+
+  <div class="row emailDisponibilidade">
+    <div class="col-md-5 cole">
+        <h1 class="horario">Horários</h1>
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1">Nome</span>
+        <input type="text" class="form-control" placeholder="nome" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group email">
+        <span class="input-group-addon" id="basic-addon1">Email</span>
+        <input type="text" class="form-control" placeholder="example@example.com" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group msgBox ">
+        <span class="input-group-addon box" id="basic-addon1">Mensagem</span>
+      </div>
+      <input type="text" class="form-control msg" placeholder="" aria-describedby="basic-addon1">
+    </div>
+
+    <div class="col-md-5 ">
+      <div class="colDir">
+        <div class="ps">
+          <p>Segunda-feira:  -------------</p>
+          <p>Terça-feira: 9:00 - 12:00</p>
+          <p>Quarta-feira: 11:00 - 15:50</p>
+          <p>Quinta-feira: -------------</p>
+          <p>Sexta-feira: 16:00 - 21:30</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label *ngIf="mensagem" class="sucesso">
+      <img src="assets/imagens/ok.png" class="ok" alt="">
+      <label class="label">Email enviado com sucesso!</label>
+    </label>
+    <button type="button" name="button" class="btn btn-primary botao"
+    (click)="onMensagem()"
+    >Enviar</button>
+  </div>
+</div>
+
+<div *ngIf="profNum==7" class="row rowzera">
+  <div class="row">
+    <div class="col-md-2">
+      <img src="assets/imagens/professorafis2.jpg" class="imgProf" alt="">
+    </div>
+    <div class="col-md-6 nomeProf">
+          <h1>Prof. Laura Duarte</h1>
+    </div>
+  </div>
+
+  <div class="row emailDisponibilidade">
+    <div class="col-md-5 cole">
+        <h1 class="horario">Horários</h1>
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1">Nome</span>
+        <input type="text" class="form-control" placeholder="nome" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group email">
+        <span class="input-group-addon" id="basic-addon1">Email</span>
+        <input type="text" class="form-control" placeholder="example@example.com" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group msgBox ">
+        <span class="input-group-addon box" id="basic-addon1">Mensagem</span>
+      </div>
+      <input type="text" class="form-control msg" placeholder="" aria-describedby="basic-addon1">
+    </div>
+
+    <div class="col-md-5 ">
+      <div class="colDir">
+        <div class="ps">
+          <p>Segunda-feira: 14:00 - 19:30</p>
+          <p>Terça-feira: 9:00 - 12:00</p>
+          <p>Quarta-feira: 11:00 - 15:50</p>
+          <p>Quinta-feira: 08:00 - 19:30</p>
+          <p>Sexta-feira: -------------</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label *ngIf="mensagem" class="sucesso">
+      <img src="assets/imagens/ok.png" class="ok" alt="">
+      <label class="label">Email enviado com sucesso!</label>
+    </label>
+    <button type="button" name="button" class="btn btn-primary botao"
+    (click)="onMensagem()"
+    >Enviar</button>
+  </div>
+</div>
+
+<div *ngIf="profNum==3" class="row rowzera">
+  <div class="row">
+    <div class="col-md-2">
+      <img src="assets/imagens/professorfis1.jpg" class="imgProf" alt="">
+    </div>
+    <div class="col-md-6 nomeProf">
+          <h1>Prof. Gustavo Dalosto</h1>
+    </div>
+  </div>
+
+  <div class="row emailDisponibilidade">
+    <div class="col-md-5 cole">
+        <h1 class="horario">Horários</h1>
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1">Nome</span>
+        <input type="text" class="form-control" placeholder="nome" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group email">
+        <span class="input-group-addon" id="basic-addon1">Email</span>
+        <input type="text" class="form-control" placeholder="example@example.com" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group msgBox ">
+        <span class="input-group-addon box" id="basic-addon1">Mensagem</span>
+      </div>
+      <input type="text" class="form-control msg" placeholder="" aria-describedby="basic-addon1">
+    </div>
+
+    <div class="col-md-5 ">
+      <div class="colDir">
+        <div class="ps">
+          <p>Segunda-feira:  -------------</p>
+          <p>Terça-feira: 9:00 - 12:00</p>
+          <p>Quarta-feira: 11:00 - 15:50</p>
+          <p>Quinta-feira: -------------</p>
+          <p>Sexta-feira: 16:00 - 21:30</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label *ngIf="mensagem" class="sucesso">
+      <img src="assets/imagens/ok.png" class="ok" alt="">
+      <label class="label">Email enviado com sucesso!</label>
+    </label>
+    <button type="button" name="button" class="btn btn-primary botao"
+    (click)="onMensagem()"
+    >Enviar</button>
+  </div>
+</div>
+
+<div *ngIf="profNum==7" class="row rowzera">
+  <div class="row">
+    <div class="col-md-2">
+      <img src="assets/imagens/professorafis2.jpg" class="imgProf" alt="">
+    </div>
+    <div class="col-md-6 nomeProf">
+          <h1>Prof. Gustavo Malta</h1>
+    </div>
+  </div>
+
+  <div class="row emailDisponibilidade">
+    <div class="col-md-5 cole">
+        <h1 class="horario">Horários</h1>
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1">Nome</span>
+        <input type="text" class="form-control" placeholder="nome" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group email">
+        <span class="input-group-addon" id="basic-addon1">Email</span>
+        <input type="text" class="form-control" placeholder="example@example.com" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group msgBox ">
+        <span class="input-group-addon box" id="basic-addon1">Mensagem</span>
+      </div>
+      <input type="text" class="form-control msg" placeholder="" aria-describedby="basic-addon1">
+    </div>
+
+    <div class="col-md-5 ">
+      <div class="colDir">
+        <div class="ps">
+          <p>Segunda-feira: 14:00 - 19:30</p>
+          <p>Terça-feira: 9:00 - 12:00</p>
+          <p>Quarta-feira: 11:00 - 15:50</p>
+          <p>Quinta-feira: 08:00 - 19:30</p>
+          <p>Sexta-feira: -------------</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label *ngIf="mensagem" class="sucesso">
+      <img src="assets/imagens/ok.png" class="ok" alt="">
+      <label class="label">Email enviado com sucesso!</label>
+    </label>
+    <button type="button" name="button" class="btn btn-primary botao"
+    (click)="onMensagem()"
+    >Enviar</button>
+  </div>
+</div>
+
+<div *ngIf="profNum==4" class="row rowzera">
+  <div class="row">
+    <div class="col-md-2">
+      <img src="assets/imagens/professorqui.jpg" class="imgProf" alt="">
+    </div>
+    <div class="col-md-6 nomeProf">
+          <h1>Prof. Gustavo Malta</h1>
+    </div>
+  </div>
+
+  <div class="row emailDisponibilidade">
+    <div class="col-md-5 cole">
+        <h1 class="horario">Horários</h1>
+      <div class="input-group">
+        <span class="input-group-addon" id="basic-addon1">Nome</span>
+        <input type="text" class="form-control" placeholder="nome" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group email">
+        <span class="input-group-addon" id="basic-addon1">Email</span>
+        <input type="text" class="form-control" placeholder="example@example.com" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group msgBox ">
+        <span class="input-group-addon box" id="basic-addon1">Mensagem</span>
+      </div>
+      <input type="text" class="form-control msg" placeholder="" aria-describedby="basic-addon1">
+    </div>
+
+    <div class="col-md-5 ">
+      <div class="colDir">
+        <div class="ps">
+          <p>Segunda-feira: 7:00 - 10:00<p>
+          <p>Terça-feira: 9:00 - 12:00</p>
+          <p>Quarta-feira: 11:00 - 15:50</p>
+          <p>Quinta-feira: 15:00 - 19:00</p>
+          <p>Sexta-feira: 16:00 - 21:30</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <label *ngIf="mensagem" class="sucesso">
+      <img src="assets/imagens/ok.png" class="ok" alt="">
+      <label class="label">Email enviado com sucesso!</label>
+    </label>
+    <button type="button" name="button" class="btn btn-primary botao"
+    (click)="onMensagem()"
+    >Enviar</button>
+  </div>
+</div>

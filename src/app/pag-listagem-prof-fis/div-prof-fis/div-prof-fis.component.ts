@@ -22,8 +22,14 @@ export class DivProfFisComponent implements OnInit {
   constructor(public perfilNumero: PerfilService) {
     this.profNum = perfilNumero.numPerfil;
  }
- onReserva(){
-  this.perfilNumero.numPerfil = 2;
+ 
+ onReserva(nome: string){
+  if(nome =='Gustavo Dalosto'){
+    this.perfilNumero.numPerfil = 3;
+  }
+  if(nome =='Laura Duarte'){
+    this.perfilNumero.numPerfil = 7;
+  }
 }
 
 

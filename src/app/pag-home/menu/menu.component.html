@@ -7,10 +7,20 @@
 
         <ul class="nav navbar-nav" >
 
-           <li class="linkHome"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-           <li class="linkGeral"><a href="#">Professores</a></li>
-           <li class="linkGeral"><a href="#">Avaliações</a></li>
-           <li class="linkGeral"><a href="#">Ajuda</a></li>
+           <li class="linkGeral"><a href="#">
+          <div class="dropdown">
+            <label class=" d-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Professores
+              <span class="caret"></span>
+            </label>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+              <li><a href="#" routerLink="/pag-listagem-prof">Matemática</a></li>
+              <li><a href="#" routerLink="/pag-listagem-prof-port">Português</a></li>
+              <li><a href="#" routerLink="/pag-listagem-prof-fis">Física</a></li>
+              <li><a href="#" routerLink="/pag-listagem-prof-qui">Química</a></li>
+            </ul>
+          </div>
+        </a></li>
   </ul>
     </nav>
     </div>

@@ -1,6 +1,5 @@
 .corNav{
   background-color: white;
-
 }
 
 .dBar{
@@ -13,9 +12,6 @@ padding-bottom: 0px;
   margin-top: 0px;
   font-size: 27px;
   display: block;
-  
-
-
 }
 
 .logo{
@@ -28,11 +24,20 @@ padding-bottom: 0px;
   margin-top: 10px;
   font-size: 28px;
   padding: 0 25px;
+ 
 }
 
 .linkGeral{
   margin-top: 11px;
   font-size: 18px;
-  display: block;
   padding: 0 18px;
+}
+
+.nav li {
+  font-size: 22px;
+
+}
+
+ul {
+  float:right;
 }

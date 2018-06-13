@@ -30,4 +30,8 @@ export class DivProfQuiComponent implements OnInit {
 
   }
 
+  onReserva(){
+    this.perfilNumero.numPerfil = 4;
+
+  }
 }

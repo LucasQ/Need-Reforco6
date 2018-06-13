@@ -1,14 +1,12 @@
 .quadrado{
     border: 1px solid;
     padding: 0px;
-    box-shadow: 5px 10px 8px #888888;
     margin-top: 100px;
     margin-left: 20px;
 }
 .ngc{
   background-color: white;
   height: 300px;
-  border-radius: 20px;
 }
  h2{
   text-align: center;
@@ -25,4 +23,28 @@
   margin-left: 230px;
   width: 530px;
 
+}
+
+.mats {
+  font-size:18px;
+}
+
+.titulo {
+  font-size:40px;
+}
+
+.titulo label {
+  margin-left: 160px;
+  margin-top: 10px;
+}
+
+#box {
+  border: 10px dotted black;
+  padding:35px;
+  background:#FFFF49;
+}
+
+.quadrado p {
+  font-size: 17px;
+  margin-top: 30px;
 }
